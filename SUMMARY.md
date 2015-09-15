@@ -1,1 +1,0 @@
-* [HTTP](http-sheet.md)
