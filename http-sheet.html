@@ -1,9 +1,10 @@
 <style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;}
-td{font-family:sans-serif;font-size:14px;padding:2px 2px 2px 2px;overflow:hidden;word-break:normal; }
+.tg  {border-collapse:collapse;border-spacing:0; }
+td{font-family:sans-serif;font-size:14px;padding:1px 1px 1px 1px;overflow:hidden;word-break:normal; width:12em;}
 .opt {font-weight: bold; padding: 4px 4px}
 .h {background: #000000; color: #ffffff; padding: 4px 4px;}
 tr {vertical-align:top; }
+
 </style>
 <h1>curl HTTP cheat sheet</h1>
 
@@ -19,7 +20,7 @@ tr {vertical-align:top; }
     <td><div class="h">POST</div><div class="opt">-d &quot;string&quot;<br>-d @file</div></td>
     <td><div class="h">multipart formpost</div><div class="opt">-F name=value<br>-F name=@file</div></td>
     <td><div class="h">PUT</div><div class="opt">-T &lt;file&gt;</div></td>
-    <td><div class="h">HEAD</div><div class="opt">-I</div></td>
+    <td><div class="h">HEAD / show headers</div><div class="opt">-I<br>-i</div></td>
     <td><div class="h">custom method</div><div class="opt">-X &quot;METHOD&quot;</div></td>
   </tr>
   <tr>
@@ -35,6 +36,10 @@ tr {vertical-align:top; }
     <td><div class="h">follow redirects</div><div class="opt">-L</div></td>
     <td><div class="h">gzipped response</div><div class="opt">--compressed</div></td>
     <td><div class="h">insecure HTTPS</div><div class="opt">-k</div></td>
+  </tr>
+  <tr>
+    <td><div class="h">custom address</div><div class="opt">--resolve &lt;host:port:addr&gt;</div></td>
+    <td><div class="h">parallel</div><div class="opt">-Z</div></td>
   </tr>
 </table>
 
