@@ -18,13 +18,13 @@ tr {vertical-align:top; }
   </tr>
   <tr>
     <td><div class="h">POST</div><div class="opt">-d &quot;string&quot;<br>-d @file</div></td>
+    <td><div class="h">POST encoded</div><div class="opt">--data-urlencode "[name]=val"</div></td>
     <td><div class="h">multipart formpost</div><div class="opt">-F name=value<br>-F name=@file</div></td>
     <td><div class="h">PUT</div><div class="opt">-T &lt;file&gt;</div></td>
     <td><div class="h">HEAD / show headers</div><div class="opt">-I<br>-i</div></td>
-    <td><div class="h">custom method</div><div class="opt">-X &quot;METHOD&quot;</div></td>
   </tr>
   <tr>
-    <td><div class="h">Basic auth</div><div class="opt">-u user:password</div></td>
+    <td><div class="h">custom method</div><div class="opt">-X &quot;METHOD&quot;</div></td>
     <td><div class="h">read cookiejar</div><div class="opt">-b &lt;file&gt;</div></td>
     <td><div class="h">write cookiejar</div><div class="opt">-c &lt;file&gt;</div></td>
     <td><div class="h">send cookies</div><div class="opt">-b &quot;c=1; d=2&quot;</div></td>
@@ -38,10 +38,10 @@ tr {vertical-align:top; }
     <td><div class="h">insecure HTTPS</div><div class="opt">-k</div></td>
   </tr>
   <tr>
+    <td><div class="h">Basic auth</div><div class="opt">-u user:password</div></td>
     <td><div class="h">custom address</div><div class="opt">--resolve &lt;host:port:addr&gt;</div></td>
     <td><div class="h">parallel</div><div class="opt">-Z</div></td>
     <td><div class="h">code generation</div><div class="opt">--libcurl file</div></td>
-    <td><div class="h">POST encoded</div><div class="opt">--data-urlencode "[name]=val"</div></td>
   </tr>
 </table>
 
