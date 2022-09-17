@@ -2,7 +2,8 @@
 
 [HTML version here](https://curl.github.io/curl-cheat-sheet/http-sheet.html)
 
-| **Verbose**          | **Hide progress**       | **Info**          | **Output**       | **Timeout**
+| Verbose              | Hide progress           | extra info        | Write output     | Timeout
+|----------------------|-------------------------|-------------------|------------------|--------------
 | -v                   | -s                      | -w format         | -O               | -m secs
 | --trace-ascii file   |                         |                   | -o file          |
 | **POST**             | **multipart**           | **PUT**           | **HEAD**         | **custom**
