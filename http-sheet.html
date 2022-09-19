@@ -2,7 +2,8 @@
 .tg  {border-collapse:collapse;border-spacing:0; }
 td{font-family:sans-serif;font-size:14px;padding:1px 1px 1px 1px;overflow:hidden;word-break:normal;}
 .opt {font-weight: bold; padding: 4px 4px}
-.h {background: #000000; color: #ffffff; padding: 4px 4px;}
+.h {background: #0a3754; color: #ffffff; padding: 4px 4px;}
+.g {background: #0f574c; color: #ffffff; padding: 4px 4px;}
 tr {vertical-align:top; }
 
 </style>
@@ -11,38 +12,38 @@ tr {vertical-align:top; }
 <table class="tg">
   <tr>
     <td><div class="h">hide progress</div><div class="opt">-s</div></td>
-    <td><div class="h">verbose</div><div class="opt">-v<br>--trace-ascii &lt;file&gt;</div></td>
-    <td><div class="h">extra info</div><div class="opt">-w &quot;format&quot;</div></td>
-    <td><div class="h">output</div><div class="opt">-O<br>-o &lt;file&gt;</div></td>
-    <td><div class="h">timeout</div><div class="opt">-m &lt;seconds&gt;</div></td>
+    <td><div class="h">verbose</div><div class="opt">-v<br>--trace-ascii file</div></td>
+    <td><div class="h">extra info</div><div class="opt">-w format</div></td>
+    <td><div class="h">output</div><div class="opt">-O<br>-o file</div></td>
+    <td><div class="g">timeout</div><div class="opt">-m seconds</div></td>
   </tr>
   <tr>
-    <td><div class="h">POST</div><div class="opt">-d &quot;string&quot;<br>-d @file</div></td>
+    <td><div class="h">POST</div><div class="opt">-d text<br>-d @file</div></td>
     <td><div class="h">POST encoded</div><div class="opt">--data-urlencode<br>"[name]=val"</div></td>
     <td><div class="h">multipart formpost</div><div class="opt">-F name=value<br>-F name=@file</div></td>
-    <td><div class="h">PUT</div><div class="opt">-T &lt;file&gt;</div></td>
-    <td><div class="h">HEAD (ers too)</div><div class="opt">-I<br>-i</div></td>
+    <td><div class="h">PUT</div><div class="opt">-T file</div></td>
+    <td><div class="g">HEAD (ers too)</div><div class="opt">-I<br>-i</div></td>
   </tr>
   <tr>
-    <td><div class="h">custom method</div><div class="opt">-X &quot;METHOD&quot;</div></td>
-    <td><div class="h">read cookiejar</div><div class="opt">-b &lt;file&gt;</div></td>
-    <td><div class="h">write cookiejar</div><div class="opt">-c &lt;file&gt;</div></td>
+    <td><div class="h">custom method</div><div class="opt">-X METHOD</div></td>
+    <td><div class="h">read cookiejar</div><div class="opt">-b file</div></td>
+    <td><div class="h">write cookiejar</div><div class="opt">-c file;</div></td>
     <td><div class="h">send cookies</div><div class="opt">-b &quot;c=1; d=2&quot;</div></td>
-    <td><div class="h">user-agent</div><div class="opt">-A &quot;string&quot;</div></td>
+    <td><div class="g">user-agent</div><div class="opt">-A &quot;text&quot;</div></td>
   </tr>
   <tr>
-    <td><div class="h">proxy</div><div class="opt">-x &lt;host:port&gt;</div></td>
+    <td><div class="h">proxy</div><div class="opt">-x host:port</div></td>
     <td><div class="h">add/remove headers</div><div class="opt">-H &quot;name: value&quot;<br>-H &quot;name:&quot;</div></td>
-    <td><div class="h">custom address</div><div class="opt">--resolve<br>&lt;host:port:addr&gt;</div></td>
+    <td><div class="h">custom address</div><div class="opt">--resolve<br>host:port:addr</div></td>
     <td><div class="h">smaller data</div><div class="opt">--compressed</div></td>
-    <td><div class="h">insecure HTTPS</div><div class="opt">-k</div></td>
+    <td><div class="g">no certcheck</div><div class="opt">-k</div></td>
   </tr>
   <tr>
     <td><div class="h">Basic auth</div><div class="opt">-u user:passwd</div></td>
     <td><div class="h">follow redirects</div><div class="opt">-L</div></td>
     <td><div class="h">parallel</div><div class="opt">-Z</div></td>
-    <td><div class="h">generate code</div><div class="opt">--libcurl &lt;file&gt;</div></td>
-    <td><div class="h">list options</div><div class="opt">--help</div></td>
+    <td><div class="h">generate code</div><div class="opt">--libcurl file</div></td>
+    <td><div class="g">fail on error</div><div class="opt">-f</div></td>
   </tr>
 </table>
 
